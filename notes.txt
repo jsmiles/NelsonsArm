@@ -1,0 +1,23 @@
+Inspiration - http://haunchpub.co.uk/site.aspx?IID=2844074&SECTIONID=2844051
+
+Requirements
+- Landing
+- History/Location - About Us: history etc. can condense those pages
+- "Gallery", needs restructure?
+- Bar/Food/Booking: condense into 1 with a form posting 
+- Menu: dynamic with an admin panel to view the db. 
+- Contact Us: condense into a footer? 
+
+
+Advanced Requirements
+- Form in admin panel for generating/editing and deleting menu items
+- Generate PDF? and use that  https://stackoverflow.com/questions/38415939/how-to-generate-pdf-from-an-active-view-laravel
+- Advanced booking system where your form offers slots for certain times/number of places dynamically
+- Note: lots of ideas under the laravel from scratch github notes for extra learnings
+
+Questions
+1. Color scheme?
+2. Design
+3. Photos
+4. Logos
+5. Content copy
