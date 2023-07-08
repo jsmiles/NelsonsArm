@@ -1,5 +1,6 @@
 <head>
    <script src="https://cdn.tailwindcss.com"></script>
+   <script src="//unpkg.com/alpinejs" defer></script>
 </head>
 <div>
   <nav class="bg-blue-950 border-b-2 border-red-500">
@@ -24,9 +25,6 @@
                 <a href="/food" name="food" class="hover:bg-blue-300 hover:text-blue-950 rounded-md px-3 py-2 text-sm font-medium {{ (Request::is('food')) ? 'bg-blue-300 text-blue-950' : '' }}">Food</a>
                 <a href="/contact" name="contact" class="hover:bg-blue-300 hover:text-blue-950 rounded-md px-3 py-2 text-sm font-medium {{ (Request::is('contact')) ? 'bg-blue-300 text-blue-950' : '' }}">Contact</a> 
             </div>
-            
-            {{-- Mobile --}}
-            
           </div>        
       </div>
     </div>
@@ -42,7 +40,6 @@
     <div class="flex flex-col h-56 items-center bg-blue-950 text-gray-100">
       <a href="/" class="mt-8">
         <div class="flex items-center">
-        {{-- 1: logo/name --}}
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#f3f4f6" viewBox="0 0 256 256"><path d="M216,136a8,8,0,0,0-8,8,40,40,0,0,1-40,40,47.79,47.79,0,0,0-32,12.27V128h32a8,8,0,0,0,0-16H136V87a32,32,0,1,0-16,0v25H88a8,8,0,0,0,0,16h32v68.27A47.79,47.79,0,0,0,88,184a40,40,0,0,1-40-40,8,8,0,0,0-16,0,56.06,56.06,0,0,0,56,56,32,32,0,0,1,32,32,8,8,0,0,0,16,0,32,32,0,0,1,32-32,56.06,56.06,0,0,0,56-56A8,8,0,0,0,216,136ZM112,56a16,16,0,1,1,16,16A16,16,0,0,1,112,56Z"></path></svg>
           <h1 class="uppercase text-xl ml-2">Nelson's Arm</h1>
         </div>
@@ -67,4 +64,5 @@
         </div>
     </div>
   </footer>
+  <x-flash />
 </div>

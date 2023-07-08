@@ -40,7 +40,7 @@ class ReviewsController extends Controller
             'body' => request()->body,
         ]);
 
-        return redirect('/');
+        return redirect('/')->with('success', 'Thanks, your review has been submitted succesfully');
     }
 
     /**

@@ -46,7 +46,7 @@ class ReservationController extends Controller
             'reservation_email' => request()->reservation_email,
         ]);
 
-        return redirect('/');
+        return redirect('/')->with('success', 'You have succesfully made a booking request. We will confirm soon!');
     }
 
     /**
